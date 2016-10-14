@@ -418,7 +418,6 @@ hr {
 .alert-bar .close {
   float: right;
   opacity: .5;
-  padding-top: 0.8rem;
 }
 
 .alert-error {
