@@ -403,12 +403,14 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .alert-bar {
+  position: relative;
   display: block;
   background-color: #fff;
   font-size: 1.8rem;
-  padding: 1.5rem 2rem;
+  padding: 1.5rem 4rem;
   text-align: center;
   border-radius: 2px;
+  margin-bottom: 1.5rem;
 }
 
 .alert-bar p {
@@ -416,13 +418,31 @@ hr {
 }
 
 .alert-bar .close {
-  float: right;
+  position: absolute;
+  right: 2rem;
+  top: 1.5rem;
   opacity: .5;
+  padding: 0 0.5rem;
+  cursor: pointer;
 }
 
-.alert-error {
+.alert-danger {
   background-color: #FF6233;
   color: #fff;
+}
+
+.alert-success {
+  background-color: #9DDE24;
+  color: #fff;
+}
+
+.alert-info {
+  background-color: #42C0C4;
+  color: #fff;
+}
+
+.alert-warning {
+  background-color: #CDD8E3;
 }
 
 
