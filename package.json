@@ -1,0 +1,23 @@
+{
+  "name": "meliodas",
+  "version": "1.0.0",
+  "description": "Meliodas UI Kit",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lojaintegrada/UI-Meliodas.git"
+  },
+  "author": "Loja Integrada",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^6.5.1",
+    "gulp-clean-css": "^2.0.13",
+    "gulp-import-css": "^0.1.3",
+    "gulp-postcss": "^6.2.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sourcemaps": "^2.1.1"
+  }
+}

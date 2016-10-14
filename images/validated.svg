@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 40.3 (33839) - http://www.bohemiancoding.com/sketch -->
+    <title>validated</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="24" height="24" rx="12"></rect>
+        <mask id="mask-2" maskContentUnits="userSpaceOnUse" maskUnits="objectBoundingBox" x="0" y="0" width="24" height="24" fill="white">
+            <use xlink:href="#path-1"></use>
+        </mask>
+    </defs>
+    <g id="desktop" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="6" transform="translate(-1194.000000, -487.000000)">
+            <g id="validated" transform="translate(1194.000000, 487.000000)">
+                <use id="Rectangle-Copy" stroke="#9DCE24" mask="url(#mask-2)" stroke-width="2" fill="#FFFFFF" xlink:href="#path-1"></use>
+                <path d="M15.7634446,8.97874708 C13.6557443,11.0792207 13.2196756,11.7410585 11.1499214,13.8330515 L8.19320422,11.3501614 C7.95754618,11.1506355 7.55254079,11.1733279 7.34306696,11.3977946 C7.13359314,11.6222613 7.15741699,12.0080331 7.39307504,12.207559 L10.7936239,15.0655511 C11.0238611,15.2582941 11.413924,15.2415463 11.6249981,15.0298262 C13.8651198,12.7974486 14.4210079,11.9681706 16.6260639,9.77064905 C17.0307092,9.34889897 16.6673706,8.79050448 16.1697502,8.80012258 C16.0170856,8.80745809 15.8683416,8.87284704 15.7634446,8.97874708 Z" id="Shape" fill="#9DCE24"></path>
+            </g>
+        </g>
+    </g>
+</svg>
