@@ -55,13 +55,24 @@ h6 { font-size: 1.2rem; line-height: 1.6;  letter-spacing: 0; }
 
 p {
   margin-top: 0;
-  }
-
-p.alert {
-  color: #FF6233;
 }
 
-p.footer {
+.text-muted {
+  color: #8091AA;
+}
+.text-primary {
+  color: #96C423;
+}
+.text-success {
+  color: #9DDE24;
+}
+.text-info {
+  color: #42C0C4;
+}
+.text-danger {
+  color: #FF6233;
+}
+.text-small, small {
   font-size: 1.4rem;
 }
 
