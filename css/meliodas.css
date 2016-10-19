@@ -243,11 +243,11 @@ label > .label-body {
   margin-left: .5rem;
   font-weight: normal; }
 
-input.form-validated, input.form-error {
+input.form-validated, input.form-input.valid, input.form-error {
   padding-right: 6rem;
 }
 
-input.form-validated {
+input.form-validated, input.form-input.valid {
   background-image: url("../images/validated.svg");
   background-repeat: no-repeat;
   background-position: right 2rem center;
@@ -268,6 +268,18 @@ input.form-icon-pin {
   background-image: url("../images/pin.svg");
   background-repeat: no-repeat;
   background-position: left 1.5rem center;
+}
+input.form-icon-juridica {
+  background-image: url("../images/icon-juridica.svg");
+  background-repeat: no-repeat;
+  background-position: left 1.5rem center;
+  background-size: 2.5rem;
+}
+input.form-icon-fisica {
+  background-image: url("../images/icon-fisica.svg");
+  background-repeat: no-repeat;
+  background-position: left 1.5rem center;
+  background-size: 2.5rem;
 }
 
 
