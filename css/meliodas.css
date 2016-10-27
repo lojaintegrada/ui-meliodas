@@ -74,6 +74,7 @@ p {
 }
 .text-small, small {
   font-size: 1.4rem;
+  line-height: 1.9rem;
 }
 
 
@@ -191,7 +192,7 @@ input[type="password"],
 textarea,
 select {
   height: 5rem;
-  padding: 2rem; /* The 6px vertically centers text on FF, ignored by Webkit */
+  padding: 1rem 2rem; /* The 6px vertically centers text on FF, ignored by Webkit */
   background-color: #fff;
   color: #1D437A;
   font-size: 1.8rem;
@@ -281,7 +282,17 @@ input.form-icon-fisica {
   background-position: left 1.5rem center;
   background-size: 2.5rem;
 }
-
+.form-container .form-icon-absolute {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  cursor: text;
+  margin: 0;
+}
+.form-container .form-icon-absolute img {
+  display: block;
+  max-width: 2.5rem;
+}
 
 /* Lists
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
@@ -387,6 +398,9 @@ form {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis; }
+.hide {
+  display: none;
+}
 
 ::-webkit-input-placeholder {
    color: #819BB3;
@@ -476,17 +490,12 @@ hr {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .indicators {
-  position: absolute;
-  bottom: 10px;
-  left: 50%;
-  z-index: 15;
-  width: 60%;
-  margin-left: -30%;
-  padding-left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 10px;
   list-style: none;
   text-align: center;
 }
-
 .indicators li {
   display: inline-block;
   width:  10px;
@@ -495,7 +504,6 @@ hr {
   text-indent: -999px;
   background-color: #D3DEE9;
   border-radius: 10px;
-  cursor: pointer;
 }
 .indicators li.active {
   background-color: #42C0C4;
@@ -535,6 +543,10 @@ hr {
     padding: 2rem 4rem;
   }
   .alert-bar .close, .help-block .close {
+    top: 2rem;
+  }
+
+  .form-container .form-icon-absolute {
     top: 2rem;
   }
 
